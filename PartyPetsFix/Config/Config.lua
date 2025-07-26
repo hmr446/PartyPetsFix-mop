@@ -125,8 +125,8 @@ function PPF_EnableTest()
                         name = 'X-Position',
                         desc = 'Adjust the Frame X-Position (ONLY WORKS IN TESTMODE!)',
                         width = 'full',
-                        min = -500,
-                        max = 500,
+                        min = 0,
+                        max = 1000,
                         step = 0.1,
                         set = function(_, val)
                             if PPF.testmode then
